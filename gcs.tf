@@ -1,5 +1,5 @@
 resource "google_storage_bucket" "mlflow_artifacts" {
-  name     = "my-mlflow-artifacts-bucket"
+  name     = "my-mlflow-jlkijuejd-bucket"
   location = var.region
 
   versioning {

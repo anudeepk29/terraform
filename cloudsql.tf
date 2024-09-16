@@ -17,4 +17,5 @@ resource "google_sql_user" "mlflow_db_user" {
   name     = "mlflow_user"
   instance = google_sql_database_instance.mlflow_db_instance.name
   password = var.db_password
+  deletion_protection  = "false"
 }

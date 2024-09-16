@@ -16,5 +16,5 @@ terraform {
   required_version = ">= 1.0.0"
 }
 
-variable "project_id" {}
-variable "region" {}
+#$variable "project_id" {}
+#variable "region" {}
